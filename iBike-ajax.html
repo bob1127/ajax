@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="iBike-ajax.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <title>FunTree</title>
+</head>
+
+<body>
+     <header id="header">
+        <div class="text">
+            <h1 id="topic">Welcome to Taichung</h1>
+            <small>台中市區IBIKE租借地點資訊</small>
+
+        </div>
+    </header>
+    <section class="section_content">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                  
+                    <div class="btn" id="btn1" onclick="downloadList1()">西屯區</div>
+                    <div class="btn" id="btn2" onclick="downloadList2()" >北屯區</div>
+                    <div class="btn" id="btn3" onclick="downloadList3()">東區</div>
+                    <div class="btn" id="btn4" onclick="downloadList4()">北區</div>
+                </div>
+                <div class="col-md-12">
+                    <ul id="location"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="iBike-ajax.js"></script>
+</body>
+
+</html>

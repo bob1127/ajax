@@ -1,0 +1,153 @@
+:root {
+    --color_white: #f3f3f3;
+    --color_yellow: #FFD633;
+    --color_black: #222;
+    --color_blue_start: #19283D;
+    --color_blue_end: #1D678F;
+    --color_rain: #4DACFF;
+    --color_white_cloud: #f2f9fe;
+    --color_grey_cloud: #ccc;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微軟正黑體";
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 100%;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+    background-image: url(https://s.newtalk.tw/album/news/173/5bfd195fd38a1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+header .text {
+      
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(12,12,12,0.4);
+    padding: 30px;
+    
+}
+header h1{
+    color: var(--color_white);
+    font-size: 4rem;
+}
+header small{
+    color: var(--color_white);
+    font-size: 2rem;
+}
+section.section_content{
+    background-color: rgba(250,214,137,0.1);
+}
+section.section_content .col-md-12{
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+section.section_content .btn{
+    width: 5vw;
+   
+    background-color: var(--color_blue_end);
+    border: 1.5px solid var(--color_white);
+    border-radius: 8px;
+    color: var(--color_white);
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 5px;
+    font-weight: 900 ;
+    flex:1;
+    margin: 3vw;
+    opacity: 0.7;
+    transition: 0.7s;
+}
+section.section_content .btn:hover{
+    opacity: 1
+
+}
+ul#location{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+
+}
+li{
+    width: 260px;
+    height: 300px;
+    border: solid 2.5px rgba(12,12,12,0.5);
+    margin: 20px;
+    background-color: rgb(88,172,220);
+    border-radius: 20px;
+    transition:.5s; 
+    box-shadow: 10px 10px 15px #333;
+    overflow: hidden;
+
+}
+li img{
+    width: 100%;
+}
+li:hover{
+    transform: translate(0px,-10px);
+    cursor: pointer;
+}
+h3{
+    font-weight: 900;
+    text-align: center;
+    font-size: 18px ;
+    color:#fff;
+    padding: 3px;
+    
+}
+h4{
+    font-weight: 900;
+    text-align: center;
+    font-size: 12px ;
+    color:#fff;
+
+}
+i{  
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    width: 100%;
+}
+h5{ 
+    width: 80%; 
+    font-weight: 900;
+    text-align: center;
+    font-size: 12px ;
+    color:#fff;
+    text-align: center
+}
+wrap{
+    height: 100px;            
+    background-color: #19283D;
+    display: flex;
+    justify-content: center;    
+    -ms-align-items: center;
+    align-items: center;    
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column; 
+}
